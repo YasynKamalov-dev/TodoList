@@ -54,3 +54,22 @@ span{
     font-size: 22px;
     font-weight: 300;
 }
+
+@media(max-width: 760px){
+    .inputs{
+        flex-direction: column;
+    }
+    .li {
+        /* height: 50px; */
+        border: 2px solid #000000b7;
+        margin: 10px 0px;
+        padding: 0px 10px;
+        border-radius: 4px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0px 0px 10px 0px;
+    }
+}
